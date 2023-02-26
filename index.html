@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khalil</title>
+    <style>
+*{
+    padding: 0;margin: 0;
+}
+header{
+    background-image: linear-gradient(to right,green,black);
+    width: 100%; height: 222px;
+}
+#logo{
+    background-color: white;width: 30%;  height: 200px;
+    float: right;
+    border: 1px solid;
+    padding: 10px;
+}
+#imgid{
+    border-radius: 50%;width: 200px;height:200px; float: right;
+}
+#h11{
+    float: left;
+    line-height: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    width: 200px;
+}
+li{
+    display: inline-block;
+    width: 20%;
+}
+nav{
+    width: 70%;
+    text-align: center;
+    line-height: 222px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+main{
+    width: 100%;height: 450px; 
+    border-top: 1px solid white;
+    animation-name:changebackground;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changebackground{
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: white;
+    }
+}
+aside{
+    width: 30%; height: 450px;
+    background-color: wheat;
+    text-align: center;
+    float: left;
+}
+#ggg{
+    width: 90%; height: 250px;
+}
+#aaa{
+    border-bottom: 3px solid green;
+    word-spacing: 5px;
+}
+#article{
+    width: 70%; height: 450px;
+    float: right;
+    position: relative;
+ 
+}
+#div{
+    padding: 15px;
+    width: 300px; height: 300px;
+    background-color: wheat;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%);
+}
+#h22{
+    padding: 15px;
+    border-bottom: 3px solid red;
+}
+#p11{
+    padding: 5px;
+}
+#social{
+    width: 100%;
+    border-bottom: 3px solid green;
+    float: left;
+}
+#social img{
+    width: 50px;
+}
+@media only screen and (max-width:1325px)
+{
+#logo{
+    width: 35%;
+}
+aside{
+    width: 35%;
+}
+#article{
+    width: 65%;
+}
+}
+@media only screen and (max-width:1130px)
+{
+#logo{
+    width: 40%;
+}
+aside{
+    width: 40%;
+}
+#article{
+    width: 60%;
+}}
+@media only screen and (max-width:993px)
+{
+#logo{
+    width: 45%;
+}
+aside{
+    width: 45%;
+}
+#article{
+    width: 55%;
+}}
+@media only screen and (max-width:883px)
+{
+    header{
+        height: auto;
+    }
+#logo{
+    width: 100%;
+    text-align: center;
+    height: 350px;
+}
+#imgid,#h11{
+    float: none;
+}
+nav{
+    width: 100%;
+}
+aside{
+    width: 100%;
+}
+#article{
+    width: 100%;
+}
+}
+@media only screen and (max-width:500px)
+{
+nav li{
+    display: block;
+    width: 100%;
+}
+}
+@media only screen and (orientation:landscape) {
+    #logo{
+        background-color: red;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <span id="logo">
+            <img id="imgid" src="ghj.jpg" alt="error">
+            <h1 id="h11">khalil mshkaf</h1>
+        </span>
+        <nav>
+            <ol>
+                <li>
+                    <a href="">الصفحة الرئيسية</a>
+                </li>
+                <li>
+                    <a href="">الفيديوهات</a>
+                </li>
+                <li>
+                    <a href="">قوائم التشغيل</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+<aside>
+<img id="ggg" src="ghj.jpg" alt="error">
+<h1 id="aaa">coder khalil</h1>
+<div id="social">
+    <a href=""><img src="facebook.png" alt=""></a>
+    <a href=""><img src="twitter.png" alt=""></a>
+    <a href=""><img src="telegram.png" alt=""></a>
+    <a href=""><img src="whatsapp.png" alt=""></a>
+    <a href=""><img src="youtube.png" alt=""></a>
+</div>
+
+</aside>
+<article id="article">
+<div id="div">
+<h1 id="h22">خليل مشكاف </h1>
+<p id="p11">انا خليل مشكاف طالب في كلية الهندسة الكهربائية والالكترونية واعمل في مجال البرمجة </p>
+</div>
+</article>
+    </main>
+
+</body>
+</html>
